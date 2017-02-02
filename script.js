@@ -1,12 +1,16 @@
-/*a= ""
 
+function task1(){
+	a= ""
+	dec = document.getElementById("task1");
 for (i = 0; i<7; i++){
     a= a+'#'
   document.write(a+'<br>');
-}*/
+}
+}
 
 
-a = 0;
+function task2(){
+	a = 0;
 
 for (var i = 0; i < 100; i++) {
 	a= a+1;
@@ -29,3 +33,4 @@ else
 	{document.write(a+"<br>")}
 
 	}
+}
